@@ -1,0 +1,6 @@
+notfound.found:
+  path: '/404'
+  defaults:
+    _controller: 'Drupal\notfound\Controller\NotfoundController::found'
+  requirements:
+    _access: 'TRUE'

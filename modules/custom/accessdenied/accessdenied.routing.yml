@@ -1,0 +1,6 @@
+accessdenied.access:
+  path: '/403'
+  defaults:
+    _controller: 'Drupal\accessdenied\Controller\DeniedController::access'
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,6 @@
+name: 404 not found
+description: 'the module is displayed when the page is not found'
+type: module
+package: Custom
+core: '8.x'
+

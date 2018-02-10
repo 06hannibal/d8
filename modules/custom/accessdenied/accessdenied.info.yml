@@ -1,0 +1,6 @@
+name: 403 access denied
+description: 'page module that is displayed when a user is banned'
+type: module
+package: Custom
+core: '8.x'
+
