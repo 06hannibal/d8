@@ -1,0 +1,26 @@
+uuid: 90cbc17a-ceca-4cc8-9d0d-a369851e67dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - myblock
+    - system
+  theme:
+    - boots_theme
+id: myblock
+theme: boots_theme
+region: content
+weight: 0
+provider: null
+plugin: myblock
+settings:
+  id: myblock
+  label: 'My block'
+  provider: myblock
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: 5e5cb561-f368-4089-bb1c-7fe8ec941b3d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ec65acc4-db4d-4d80-92eb-cecd20453f57'
+  module:
+    - block_content
+    - system
+  theme:
+    - boots_theme
+id: drupal8
+theme: boots_theme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:ec65acc4-db4d-4d80-92eb-cecd20453f57'
+settings:
+  id: 'block_content:ec65acc4-db4d-4d80-92eb-cecd20453f57'
+  label: 'Drupal 8 =)'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,25 @@
+uuid: 4948e4cb-9b77-45e3-82b1-8f6afe7e76ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - boots_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: boots_theme_branding
+theme: boots_theme
+region: navigation
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

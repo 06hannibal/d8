@@ -1,0 +1,14 @@
+uuid: 0a54d6bc-79cb-47de-8f38-7fbe07dc8f0d
+name: d8
+mail: 06hannibal@gmail.com
+slogan: ''
+page:
+  403: /403
+  404: /404
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
